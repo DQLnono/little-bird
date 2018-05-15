@@ -4,21 +4,22 @@
     "pages/logs/logs"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#eee",
+    "backgroundTextStyle":"black",
+    "navigationBarBackgroundColor": "white",
     "navigationBarTitleText": "Dnono",
-    "navigationBarTextStyle":"light"
+    "navigationBarTextStyle":"black"
   },
-  "tagBar":{
-    "list": [
-      {
+  "tabBar":{
+    "color": "#000",
+    "selectedColor": "#8089ee",
+    "backgroundColor":"#fff",
+    "list": [{
         "pagePath": "pages/index/index",
         "text": "首页"
       },
       {
         "pagePath": "pages/logs/logs",
         "text": "日志"
-      }
-    ]
+    }]
   }
 }
